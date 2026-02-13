@@ -1,12 +1,12 @@
-import { 
-  Building2, 
-  MapPin, 
-  Phone, 
-  User, 
-  Globe2, 
-  Palette, 
-  Save, 
-  Check, 
+import {
+  Building2,
+  MapPin,
+  Phone,
+  User,
+  Globe2,
+  Palette,
+  Save,
+  Check,
   LayoutDashboard,
   Settings,
   CreditCard,
@@ -15,18 +15,19 @@ import {
   Image as ImageIcon,
   Plus,
   Trash2,
-  Calculator
+  Calculator,
+  Printer
 } from 'lucide-react';
 
-export { 
-  Building2, 
-  MapPin, 
-  Phone, 
-  User, 
-  Globe2, 
-  Palette, 
-  Save, 
-  Check, 
+export {
+  Building2,
+  MapPin,
+  Phone,
+  User,
+  Globe2,
+  Palette,
+  Save,
+  Check,
   LayoutDashboard,
   Settings,
   CreditCard,
@@ -35,5 +36,6 @@ export {
   ImageIcon,
   Plus,
   Trash2,
-  Calculator
+  Calculator,
+  Printer
 };

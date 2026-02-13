@@ -119,7 +119,7 @@ export const QuotePreview: React.FC<QuotePreviewProps> = ({ data, id }) => {
               </tr>
             ))}
             {/* Empty Rows Filler */}
-            {Array.from({ length: Math.max(0, 12 - data.items.length) }).map((_, i) => (
+            {Array.from({ length: Math.max(0, 6 - data.items.length) }).map((_, i) => (
               <tr key={`empty-${i}`} className="bg-white border-b border-gray-100">
                 <td className="px-2 py-1 border-r border-gray-200">&nbsp;</td>
                 <td className="px-2 py-1 border-r border-gray-200">&nbsp;</td>
